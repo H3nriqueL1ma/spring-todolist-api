@@ -39,7 +39,11 @@ Esse é um projeto de uma API para gerenciador de tarefas. Armazena o cadastro d
     ```sh
     sudo apt install maven
     ```
-5. Execute o arquivo .jar:
+5. Monte o pacote:
+    ```sh
+    mvn clean package
+    ```
+7. Execute o arquivo .jar:
     ```sh
     java -jar target/todolist-api-0.0.1-SNAPSHOT.jar
 
