@@ -6,8 +6,9 @@ Esse é um projeto de uma API para gerenciador de tarefas. Armazena o cadastro d
 ## Funcionalidades
 
 - Cadastro de novos usuários
-- Atualização dos dados dos usuários
 - Autenticação Basic Auth para login de usuários
+- Validação de emails e domínios
+- Validação de links
 - Troca de senha para usuários que esqueceram a senha
 - Criação de novas tarefas
 - Exclusão das tarefas
@@ -308,7 +309,7 @@ GET /user/task/read-user-tasks/complete?reqParam
     ```
 5. Monte o pacote:
     ```sh
-    mvn clean package
+    mvn clean package -DskipTests
     ```
 7. Execute o arquivo .jar:
     ```sh
