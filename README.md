@@ -314,7 +314,8 @@ GET /user/task/read-user-tasks/complete?reqParam
 7. Execute o arquivo .jar:
     ```sh
     java -jar target/todolist-api-0.0.1-SNAPSHOT.jar
-
+    ```
+    
 ## Licença
 
 Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
